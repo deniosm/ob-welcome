@@ -1,0 +1,13 @@
+[Applet Factory]
+Id=DeniosMenuAppletFactory
+InProcess=false
+Location=/usr/lib/linuxdenios/deniosMenu/deniosMenu.py
+Name=DeniosMenu Applet Factory
+Description=Advanced Menu
+
+[DeniosMenuApplet]
+Name=deniosMenu
+Description=Advanced Menu
+Icon=deniosmenu
+MateComponentId=OAFIID:MATE_DeniosMenuApplet;
+

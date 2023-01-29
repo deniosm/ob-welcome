@@ -1,0 +1,12 @@
+#!/bin/bash
+
+intltool-extract --type=gettext/glade usr/share/linuxdenios/deniosmenu/applications.ui
+intltool-extract --type=gettext/glade usr/share/linuxdenios/deniosmenu/main.ui
+intltool-extract --type=gettext/glade usr/share/linuxdenios/deniosmenu/places.ui
+intltool-extract --type=gettext/glade usr/share/linuxdenios/deniosmenu/preferences.ui
+intltool-extract --type=gettext/glade usr/share/linuxdenios/deniosmenu/recent.ui
+intltool-extract --type=gettext/glade usr/share/linuxdenios/deniosmenu/system.ui
+
+xgettext --language=Python --keyword=_ --keyword=N_ --output=deniosmenu.pot usr/lib/linuxdenios/deniosMenu/*.py usr/lib/linuxdenios/deniosMenu/plugins/*.py usr/share/linuxdenios/deniosmenu/*.ui.h
+
+rm -rf usr/share/linuxdenios/deniosmenu/*.ui.h
