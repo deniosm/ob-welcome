@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo rm -rf /usr/lib/linuxdenios/deniosMenu
+sudo rm -rf /usr/lib/osdenios/deniosMenu
 sudo cp -R usr /
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 
 killall -q deniosmenu
 
-mate-terminal --maximize -e /usr/lib/linuxdenios/deniosMenu/deniosMenu.py
+mate-terminal --maximize -e /usr/lib/osdenios/deniosMenu/deniosMenu.py
 
 mate-panel-test-applets --iid DeniosMenuAppletFactory::DeniosMenuApplet

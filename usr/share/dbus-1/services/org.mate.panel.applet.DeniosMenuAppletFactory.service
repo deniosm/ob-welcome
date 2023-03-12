@@ -1,3 +1,3 @@
 [D-BUS Service]
 Name=org.mate.panel.applet.DeniosMenuAppletFactory
-Exec=/usr/lib/linuxdenios/deniosMenu/deniosMenu.py
+Exec=/usr/lib/osdenios/deniosMenu/deniosMenu.py

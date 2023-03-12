@@ -4,7 +4,8 @@ Upstream-Contact: Denis Maslo <denios-linux@proton.me>
 Source: https://github.com/deniosm/deniosmenu
 
 Files: *
-Copyright: 2022-2023 Denis Maslo <denios-linux@proton.me>
+Copyright: 2022-2023 Denis Maslo <denios-linux@proton.me> 
+ 2007-2014 Clement Lefebvre <root@linuxmint.com>
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

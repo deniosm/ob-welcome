@@ -17,574 +17,574 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/lib/linuxdenios/deniosMenu/keybinding.py:168
+#: usr/lib/osdenios/deniosMenu/keybinding.py:168
 msgid "Click to set a new accelerator key for opening and closing the menu.  "
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/keybinding.py:169
+#: usr/lib/osdenios/deniosMenu/keybinding.py:169
 msgid "Press Escape or click again to cancel the operation.  "
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/keybinding.py:170
+#: usr/lib/osdenios/deniosMenu/keybinding.py:170
 msgid "Press Backspace to clear the existing keybinding."
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/keybinding.py:182
+#: usr/lib/osdenios/deniosMenu/keybinding.py:182
 msgid "Pick an accelerator"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/keybinding.py:234
+#: usr/lib/osdenios/deniosMenu/keybinding.py:234
 msgid "<not set>"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:34
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:34
 msgid "Menu"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:153
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:153
 msgid "Couldn't load plugin:"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:212
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:212
 msgid "Couldn't initialize plugin"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:587
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:587
 msgid "Advanced MATE Menu"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:698
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:698
 msgid "Preferences"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:702
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:702
 msgid "Edit menu"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:706
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:706
 msgid "Reload plugins"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/deniosMenu.py:709
+#: usr/lib/osdenios/deniosMenu/deniosMenu.py:709
 msgid "About"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:24
+#: usr/lib/osdenios/deniosMenu/preferences.py:24
 msgid "Custom Place"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:35
+#: usr/lib/osdenios/deniosMenu/preferences.py:35
 msgid "Name:"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:39
+#: usr/lib/osdenios/deniosMenu/preferences.py:39
 msgid "Select a folder"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:41
+#: usr/lib/osdenios/deniosMenu/preferences.py:41
 msgid "Folder:"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:60
+#: usr/lib/osdenios/deniosMenu/preferences.py:60
 msgid "Menu preferences"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:67
+#: usr/lib/osdenios/deniosMenu/preferences.py:67
 msgid "Menu button"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:67
+#: usr/lib/osdenios/deniosMenu/preferences.py:67
 msgid "Applet button in the panel"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:68
+#: usr/lib/osdenios/deniosMenu/preferences.py:68
 msgid "Show button icon"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:69
+#: usr/lib/osdenios/deniosMenu/preferences.py:69
 msgid "Button text"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:71
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:74
+#: usr/lib/osdenios/deniosMenu/preferences.py:71
+#: usr/lib/osdenios/deniosMenu/preferences.py:74
 msgid "Menu icons"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:73
+#: usr/lib/osdenios/deniosMenu/preferences.py:73
 msgid "Button icon"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:80
+#: usr/lib/osdenios/deniosMenu/preferences.py:80
 msgid "Keyboard shortcut"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:86
+#: usr/lib/osdenios/deniosMenu/preferences.py:86
 msgid "Options"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:86
+#: usr/lib/osdenios/deniosMenu/preferences.py:86
 msgid "General applet options"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:87
+#: usr/lib/osdenios/deniosMenu/preferences.py:87
 msgid "Show system management"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:90
+#: usr/lib/osdenios/deniosMenu/preferences.py:90
 msgid "Show places"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:93
+#: usr/lib/osdenios/deniosMenu/preferences.py:93
 msgid "Show recently used documents and applications"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:97
+#: usr/lib/osdenios/deniosMenu/preferences.py:97
 msgid "Show tooltips"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:101
+#: usr/lib/osdenios/deniosMenu/preferences.py:101
 msgid "Theme"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:101
+#: usr/lib/osdenios/deniosMenu/preferences.py:101
 msgid "Custom theme selection"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:103
+#: usr/lib/osdenios/deniosMenu/preferences.py:103
 msgid "Desktop theme"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:113
+#: usr/lib/osdenios/deniosMenu/preferences.py:113
 msgid "Theme:"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:115
+#: usr/lib/osdenios/deniosMenu/preferences.py:115
 msgid "Icon sizes"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:115
+#: usr/lib/osdenios/deniosMenu/preferences.py:115
 msgid "The size of the icons"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:116
-#: usr/share/linuxdenios/deniosmenu/applications.ui.h:1
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:3
+#: usr/lib/osdenios/deniosMenu/preferences.py:116
+#: usr/share/osdenios/deniosmenu/applications.ui.h:1
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:3
 msgid "Favorites"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:117
-#: usr/share/linuxdenios/deniosmenu/applications.ui.h:3
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:4
-#: usr/share/linuxdenios/deniosmenu/recent.ui.h:2
+#: usr/lib/osdenios/deniosMenu/preferences.py:117
+#: usr/share/osdenios/deniosmenu/applications.ui.h:3
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:4
+#: usr/share/osdenios/deniosmenu/recent.ui.h:2
 msgid "Applications"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:118
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:41
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:5
+#: usr/lib/osdenios/deniosMenu/preferences.py:118
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:41
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:5
 msgid "System"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:119
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:46
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:6
+#: usr/lib/osdenios/deniosMenu/preferences.py:119
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:46
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:6
 msgid "Places"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:124
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:142
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:150
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:166
+#: usr/lib/osdenios/deniosMenu/preferences.py:124
+#: usr/lib/osdenios/deniosMenu/preferences.py:142
+#: usr/lib/osdenios/deniosMenu/preferences.py:150
+#: usr/lib/osdenios/deniosMenu/preferences.py:166
 msgid "Layout"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:124
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:142
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:150
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:166
+#: usr/lib/osdenios/deniosMenu/preferences.py:124
+#: usr/lib/osdenios/deniosMenu/preferences.py:142
+#: usr/lib/osdenios/deniosMenu/preferences.py:150
+#: usr/lib/osdenios/deniosMenu/preferences.py:166
 msgid "Section layout"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:125
+#: usr/lib/osdenios/deniosMenu/preferences.py:125
 msgid "Show search bar on top"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:126
+#: usr/lib/osdenios/deniosMenu/preferences.py:126
 msgid "Show applications comments"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:128
+#: usr/lib/osdenios/deniosMenu/preferences.py:128
 msgid "Categories"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:128
+#: usr/lib/osdenios/deniosMenu/preferences.py:128
 msgid "Applications categories"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:129
+#: usr/lib/osdenios/deniosMenu/preferences.py:129
 msgid "Show category icons"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:130
+#: usr/lib/osdenios/deniosMenu/preferences.py:130
 msgid "Switch categories on hover"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:131
+#: usr/lib/osdenios/deniosMenu/preferences.py:131
 msgid "Hover delay"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:131
+#: usr/lib/osdenios/deniosMenu/preferences.py:131
 msgid "milliseconds"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:133
+#: usr/lib/osdenios/deniosMenu/preferences.py:133
 msgid "Search"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:133
+#: usr/lib/osdenios/deniosMenu/preferences.py:133
 msgid "Search options"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:134
+#: usr/lib/osdenios/deniosMenu/preferences.py:134
 msgid "Search for packages to install"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:135
+#: usr/lib/osdenios/deniosMenu/preferences.py:135
 msgid "Remember the last category or search"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:136
+#: usr/lib/osdenios/deniosMenu/preferences.py:136
 msgid "Enable Internet search"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:137
+#: usr/lib/osdenios/deniosMenu/preferences.py:137
 msgid "Search command"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:143
+#: usr/lib/osdenios/deniosMenu/preferences.py:143
 msgid "Number of columns"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:144
+#: usr/lib/osdenios/deniosMenu/preferences.py:144
 msgid "Swap name and generic name"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:145
+#: usr/lib/osdenios/deniosMenu/preferences.py:145
 msgid "Show favorites when the menu is open"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:151
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:167
+#: usr/lib/osdenios/deniosMenu/preferences.py:151
+#: usr/lib/osdenios/deniosMenu/preferences.py:167
 msgid "Custom height"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:152
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:168
+#: usr/lib/osdenios/deniosMenu/preferences.py:152
+#: usr/lib/osdenios/deniosMenu/preferences.py:168
 msgid "Height"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:154
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:170
+#: usr/lib/osdenios/deniosMenu/preferences.py:154
+#: usr/lib/osdenios/deniosMenu/preferences.py:170
 msgid "Items"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:154
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:170
+#: usr/lib/osdenios/deniosMenu/preferences.py:154
+#: usr/lib/osdenios/deniosMenu/preferences.py:170
 msgid "Toggle default items"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:155
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:147
+#: usr/lib/osdenios/deniosMenu/preferences.py:155
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:147
 msgid "Software Manager"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:156
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:154
+#: usr/lib/osdenios/deniosMenu/preferences.py:156
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:154
 msgid "Package Manager"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:157
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:161
+#: usr/lib/osdenios/deniosMenu/preferences.py:157
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:161
 msgid "Control Center"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:158
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:168
+#: usr/lib/osdenios/deniosMenu/preferences.py:158
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:168
 msgid "Terminal"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:159
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:178
+#: usr/lib/osdenios/deniosMenu/preferences.py:159
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:178
 msgid "Lock Screen"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:160
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:185
+#: usr/lib/osdenios/deniosMenu/preferences.py:160
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:185
 msgid "Logout"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:161
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:192
+#: usr/lib/osdenios/deniosMenu/preferences.py:161
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:192
 msgid "Quit"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:171
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:137
+#: usr/lib/osdenios/deniosMenu/preferences.py:171
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:137
 msgid "Computer"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:172
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:144
+#: usr/lib/osdenios/deniosMenu/preferences.py:172
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:144
 msgid "Home Folder"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:173
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:154
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:156
+#: usr/lib/osdenios/deniosMenu/preferences.py:173
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:154
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:156
 msgid "Network"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:174
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:175
+#: usr/lib/osdenios/deniosMenu/preferences.py:174
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:175
 msgid "Desktop"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:175
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:182
+#: usr/lib/osdenios/deniosMenu/preferences.py:175
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:182
 msgid "Trash"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:176
+#: usr/lib/osdenios/deniosMenu/preferences.py:176
 msgid "GTK Bookmarks"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:178
+#: usr/lib/osdenios/deniosMenu/preferences.py:178
 msgid "Custom places"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:178
+#: usr/lib/osdenios/deniosMenu/preferences.py:178
 msgid "You can add your own places in the menu"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:193
+#: usr/lib/osdenios/deniosMenu/preferences.py:193
 msgid "Name"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/preferences.py:194
+#: usr/lib/osdenios/deniosMenu/preferences.py:194
 msgid "Path"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:625
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:625
 #, python-format
 msgid "Search DuckDuckGo for %s"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:627
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:627
 #, python-format
 msgid "Search Wikipedia for %s"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:630
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:630
 #, python-format
 msgid "Lookup %s in Dictionary"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:632
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:632
 #, python-format
 msgid "Search Computer for %s"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:690
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:732
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:690
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:732
 #, python-format
 msgid "Install package '%s'"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:836
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:911
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:836
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:911
 msgid "Add to desktop"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:837
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:912
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:837
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:912
 msgid "Add to panel"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:839
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:889
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:839
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:889
 msgid "Insert space"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:840
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:890
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:840
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:890
 msgid "Insert separator"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:842
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:915
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:842
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:915
 msgid "Launch when I log in"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:844
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:917
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:844
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:917
 msgid "Launch"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:845
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:918
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:845
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:918
 msgid "Run with NVIDIA GPU"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:846
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:846
 msgid "Remove from favorites"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:848
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:922
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:848
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:922
 msgid "Edit properties"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:888
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:888
 msgid "Remove"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:914
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:914
 msgid "Show in my favorites"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:919
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:919
 msgid "Uninstall"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:920
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:920
 msgid "Delete from menu"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:988
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:988
 msgid "Search DuckDuckGo"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:989
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:989
 msgid "Search Wikipedia"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:991
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:991
 msgid "Search Dictionary"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:992
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:992
 msgid "Search Computer"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:994
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:994
 msgid "Find Software"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:995
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:995
 msgid "Find Tutorials"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:996
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:996
 msgid "Find Hardware"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:997
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:997
 msgid "Find Ideas"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:998
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:998
 msgid "Find Users"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:1642
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:1642
 msgid "All"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/applications.py:1644
+#: usr/lib/osdenios/deniosMenu/plugins/applications.py:1644
 msgid "Show all applications"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:141
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:141
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:148
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:148
 msgid "Open your personal folder"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:160
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:160
 msgid "Browse bookmarked and local network locations"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:179
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:179
 msgid "Browse items placed on the desktop"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:189
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:189
 msgid "Browse deleted files"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/places.py:238
+#: usr/lib/osdenios/deniosMenu/plugins/places.py:238
 msgid "Empty trash"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/recent.py:41
+#: usr/lib/osdenios/deniosMenu/plugins/recent.py:41
 msgid "Recently used"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/recent.py:192
+#: usr/lib/osdenios/deniosMenu/plugins/recent.py:192
 msgid "The file or location could not be opened."
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:151
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:151
 msgid "Browse and install available software"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:158
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:158
 msgid "Install, remove and upgrade software packages"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:165
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:165
 msgid "Configure your system"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:175
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:175
 msgid "Use the command line"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:182
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:182
 msgid "Requires password to unlock"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:189
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:189
 msgid "Log out or switch user"
 msgstr ""
 
-#: usr/lib/linuxdenios/deniosMenu/plugins/system_management.py:196
+#: usr/lib/osdenios/deniosMenu/plugins/system_management.py:196
 msgid "Shutdown, restart, suspend or hibernate"
 msgstr ""
 
-#: usr/share/linuxdenios/deniosmenu/applications.ui.h:2
+#: usr/share/osdenios/deniosmenu/applications.ui.h:2
 msgid "All applications"
 msgstr ""
 
-#: usr/share/linuxdenios/deniosmenu/applications.ui.h:4
+#: usr/share/osdenios/deniosmenu/applications.ui.h:4
 msgid "Show additional search options"
 msgstr ""
 
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:1
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:1
 msgid "General"
 msgstr ""
 
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:2
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:2
 msgid "Appearance"
 msgstr ""
 
-#: usr/share/linuxdenios/deniosmenu/preferences.ui.h:7
+#: usr/share/osdenios/deniosmenu/preferences.ui.h:7
 msgid "Default"
 msgstr ""
 
-#: usr/share/linuxdenios/deniosmenu/recent.ui.h:1
+#: usr/share/osdenios/deniosmenu/recent.ui.h:1
 msgid "Documents"
 msgstr ""
