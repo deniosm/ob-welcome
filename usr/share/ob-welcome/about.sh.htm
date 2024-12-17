@@ -1,0 +1,82 @@
+#!/bin/bash
+source translation
+GLOBALS_FILE=~/.config/kdedefaults/kdeglobals
+
+CSS_FILE="css/style.css"
+
+if [[ -f "$GLOBALS_FILE" ]]; then
+    COLOR_SCHEME=$(grep -E "^ColorScheme=" "$GLOBALS_FILE" | cut -d '=' -f 2)
+
+    if [[ "$COLOR_SCHEME" == "BreezeDark" ]]; then
+        CSS_FILE="css/dark.css"
+    fi
+fi
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=ob-welcome
+
+cat << EOF
+<html>
+
+	<head>
+		<title>$title</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+            <link rel="stylesheet" href="$CSS_FILE" />
+
+	</head>
+<body>
+EOF
+cat << EOF
+<div class="left">
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href=./apps/docswiki.run>$docswiki</a></li>
+			<li><a href=./apps/open-rn.run>$descrn</a></li>
+			<li class='active'><a href="##">$descabout</a></li>
+		</ul>
+	</nav>
+</div>
+<div class="right">
+
+	<div class="wrapper">
+		<div class="logo"><br>
+			<img src="images/omth.png" "/>
+		</div>
+		 <article class="articles">
+			<h1 class="titlePage">OpenBosniana OS Welcome App </h1>
+			<br/>
+			<p class="blue">$license</p>
+			<br/>
+			<p class="blue">$dependency</p>
+			</br>
+			<p class="blue">$bugs <a class="title" href=./apps/open-bugzilla.run> bosniana.org</a></p>
+			<br/>
+			<p class="blue">Fork and Contribute to $ob_appsite <a class="title" href=./apps/open-appsite.run> openbosniana-welcome-app Github Repo</a></p>
+			<br/>
+			<div class="linija"></div>
+			<p class="blue">Denis Maslo | <a href="##">bosniana.org</a></p>
+		 </article>
+</div>
+</body>
+
+  <script>
+    document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("selectstart", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("copy", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("dragstart", function(e) {
+      e.preventDefault();
+    });
+  </script>
+
+EOF
+</html>
+

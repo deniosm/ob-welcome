@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'autostart=0' > ~/.ob-welcome
+
+kdialog --title $"OpenBosniana"  --msgbox  $" The ob-welcome will not initialize with the system"

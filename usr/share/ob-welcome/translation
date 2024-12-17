@@ -1,0 +1,78 @@
+#!/bin/bash
+
+#textos a serem traduzidos
+#texts to be translated
+#index.sh.htm
+#Locale
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=ob-welcome
+hi=$"Hi %1!"
+title=$"Welcome to OpenBosniana OS"
+Name=$"OpenBosniana Welcome"
+#sections menu
+menuconfigure=$"Configure"
+
+menudesktop=$"Desktop"
+menuhardware=$"Hardware"
+menuindex=$"Welcome"
+menusw=$"Software"
+menusystem=$"System"
+text=$"Welcome to your new operating system!"
+text2=$"This welcome screen will guide you through your first steps, show you how find help and where to get more information about OpenBosniana OS.
+"
+#translations of omfeat.sh.htm
+descomfeat=$"First steps"
+titleupdconf=$"Date and time, updates, network, backup..."
+descupdconf=$"Monitor, audio, keyboard, storage..."
+descfeellike=$"Themes, fonts, icons..."
+installopenbosniana=$"Install OpenBosniana"
+
+descabout=$"About this application"
+
+descrn=$"Release Notes"
+nostarwithoma=$"Do not start OpenBosniana Welcome on login"
+makestartwithoma=$"Make OpenBosniana Welcome start on login"
+
+#Additional
+you_are_using=$"You are currently using %2 with kernel %3."
+
+menusoft=$"Software"
+menusoftdesc=$"Update the system, application management..."
+
+docswiki=$"Documentation"
+license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
+dependency=$"It uses Qt6 WebEngine and openbosniana-welcome."
+bugs=$"For bugs, suggestions and improvements, please head to "
+titlecontrolcenter=$"Control Center"
+descaboutcc=$"About this application"
+titlepage04=$"SYSTEM"
+titleupdatesys=$"Update"
+updatesettigs=$"Update Settings"
+titledrakuser=$"Users and Groups"
+titledrakclock=$"Date and Time"
+titleconfiglan=$"Networks"
+titlekbackup=$"Backup"
+titlepage05=$"HARDWARE"
+titlexfdrake=$"Monitor"
+titleconfigprint=$"Printer"
+titlebluetooth=$"Bluetooth"
+titleaudio=$"Audio"
+titlekeyboard=$"Keyboard"
+titletouchpad=$"Touchpad"
+titlediskdrake=$"Local Drives"
+titlekdiskfree=$"Storage Devices"
+titlepage08=$"DESKTOP"
+titlechangethemes=$"Themes"
+titlemauishell=$"Login Screen"
+titlelxqt=$"Compositor"
+titlechangeicons=$"Icons"
+titlegnomeshell=$"Colors"
+titledrakfont=$"Fonts"
+titlelanguage=$"Language"
+aboutsys=$"About This System"
+cpuinfo=$"CPU Information"
+pciinfo=$"PCI information"
+devinfo=$"Device Viewer"
+license=$"This software is licensed under the GNU General Public License version 2 (GPLv2)."
+dependency=$"It uses Qt6 WebEngine and openbosniana-welcome."
+bugs=$"For bugs, suggestions and improvements, please head to "

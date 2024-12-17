@@ -1,13 +1,12 @@
-deniosmenu (1.0.4) testing; urgency=medium
+ob-welcome (2024.12.17) OpenBosniana; urgency=medium
 
-  * Rebuid package
-  * Update version
+  * fix autostart
+  * update /apps/*
 
- -- Denis Maslo <denios-linux@proton.me>  Sun, 12 Mar 2023 01:52:57 +0100
+ -- Denis Maslo <deni@bosniana.org>  Tue, 17 Dec 2024 12:02:11 +0200
 
-deniosmenu (1.0.2) testing; urgency=medium
+ob-welcome (2024.10.12) OpenBosniana; urgency=medium
 
-  * Initial release
-  * Initial version
+  * initial release
 
- -- Denis Maslo <denios-linux@proton.me>  Sun, 29 Jan 2023 16:23:57 +0000
+ -- Denis Maslo <deni@bosniana.org>  Thu, 25 May 2023 16:11:37 +0200

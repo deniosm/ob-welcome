@@ -1,4 +1,0 @@
-<menuitem name="Prefs" action="DeniosMenuPrefs"/>
-<menuitem name="Edit" action="DeniosMenuEdit"/>
-<menuitem name="Reload" action="DeniosMenuReload"/>
-<menuitem name="About" action="DeniosMenuAbout"/>

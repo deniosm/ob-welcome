@@ -1,0 +1,157 @@
+#!/bin/bash
+source translation
+source ~/.ob-welcome
+source /etc/os-release
+GLOBALS_FILE=~/.config/kdedefaults/kdeglobals
+
+CSS_FILE="css/style.css"
+
+if [[ -f "$GLOBALS_FILE" ]]; then
+    COLOR_SCHEME=$(grep -E "^ColorScheme=" "$GLOBALS_FILE" | cut -d '=' -f 2)
+
+    if [[ "$COLOR_SCHEME" == "BreezeDark" ]]; then
+        CSS_FILE="css/dark.css"
+    fi
+fi
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=ob-welcome
+
+[ -z "$USER" ] && USER="$(id -nu)"
+REALNAME="$(getent passwd $USER |cut -d: -f5)"
+[ -z "$REALNAME" ] && REALNAME="$USER"
+
+sed \
+	-e "s|%1|<span class=\"username\">$REALNAME</span>|g" \
+	-e "s|%2|${NAME} ${VERSION}|g" \
+	-e "s|%3|$(uname -r | cut -d"-" -f1) $(uname -r | cut -d"-" -f2)|g" \
+	<< EOF
+<html>
+
+	<head>
+		<title>$title</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="$CSS_FILE" />
+
+	</head>
+<body>
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href=./apps/docswiki.run>$docswiki</a></li>
+			<li><a href=./apps/open-rn.run>$descrn</a></li>
+			<li><a href="about.sh.htm">$descabout</a></li>
+		</ul>
+	</nav>
+<!-- Home -->
+	<div class="wrapper">
+		<div class="logo">
+			<img src="images/omth.png" "/>
+		</div>
+		 <article class="articles">
+			<h1 class="titlePage"> $title </h1>
+			<br/>
+			<p class="hicapitalize">$hi</p>
+			<br/>
+			<p>$text</p>
+			<br/>
+			<p>$text2</p>
+		 </article>
+		 <br/>
+		 <article class="articles">
+			<p>
+				$you_are_using
+			</p>
+		 </article>
+		 </article>
+		 <br/>
+		 <article class="articles">
+
+EOF
+
+cat << EOF
+		 </article>
+
+
+		<div id="container" style="margin-top:50px;">
+<h1 class="titlePage"> $titlepage08 </h1><br/>
+
+
+		<ul id="item-list">
+			<li>
+				<p><a class="title" href=../ob-welcome-center/apps/start-kdethemes.run><img src="../ob-control-center/images/desktop-theme.svg" class="alignleft"/></a>
+				<span><a class="title" href=../ob-welcome-center/apps/start-kdethemes.run>$titlechangethemes</a></span></p>
+			</li>
+			<li>
+				<p><a class="title" href=../ob-welcome-center/apps/install-mauishell.run><img src="../ob-control-center/images/login.svg" class="alignleft"/></a>
+				<span><a class="title" href=../ob-welcome-center/apps/install-mauishell.run>$titlemauishell</a></span></p>
+			</li>
+			<li>
+				<p><a class="title" href=../ob-welcome-center/apps/install-lxqt.run><img src="../ob-control-center/images/compton.svg" class="alignleft"/></a>
+				<span><a class="title" href=../ob-welcome-center/apps/install-lxqt.run>$titlelxqt</a></span></p>
+			</li>
+			<li>
+				<p><a class="title" href=../ob-welcome-center/apps/start-kdeicons.run><img src="../ob-control-center/images/desktop-icons.svg" class="alignleft"/></a>
+				<span><a class="title" href=../ob-welcome-center/apps/start-kdeicons.run>$titlechangeicons</a></span></p>
+			</li>
+			<li>
+				<p><a class="title" href=../ob-welcome-center/apps/install-gnomeshell.run><img src="../ob-control-center/images/colorgrab.svg" class="alignleft"/></a>
+				<span><a class="title" href=../ob-welcome-center/apps/install-gnomeshell.run>$titlegnomeshell</a></span></p>
+			</li>
+			<li>
+				<p><a class="title" href=../ob-welcome-center/apps/start-fonts.run><img src="../ob-control-center/images/fonts.svg" class="alignleft"/></a>
+				<span><a class="title" href=../ob-welcome-center/apps/start-fonts.run>$titledrakfont</a></span></p>
+			</li>
+		</ul>
+		</div>
+	</div>
+EOF
+
+
+
+if [ $autostart -eq 1 ]; then
+
+cat << EOF
+	<div class="nostartauto">
+		<span>
+			 <input type="checkbox" value="./apps/nostart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+		 $nostarwithoma </span>
+	</div>
+EOF
+
+else
+
+cat << EOF
+	<div class="nostartauto">
+		<span>
+			 <input type="checkbox" value="./apps/makestart.run" name="checket" onClick="if (this.checked) { window.location = this.value; }"/>
+			 $makestartwithoma </span>
+	</div>
+EOF
+
+fi
+
+
+cat << EOF
+
+
+
+</body>
+  <script>
+    document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("selectstart", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("copy", function(e) {
+      e.preventDefault();
+    });
+    document.addEventListener("dragstart", function(e) {
+      e.preventDefault();
+    });
+  </script>
+
+</html>
+EOF

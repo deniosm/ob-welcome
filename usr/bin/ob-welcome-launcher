@@ -1,0 +1,13 @@
+#!/bin/sh
+if ! [ -e "/home/$USER/.ob-welcome" ]; then
+	touch ~/.ob-welcome
+	echo 'autostart=1' > ~/.ob-welcome
+fi
+
+source ~/.ob-welcome
+
+#read if autostart?
+if [ "$autostart" -eq 1 ]; then
+	cd /usr/share/ob-welcome/
+	exec openbosniana-welcome -s 1020x700 -i openbosniana-welcome -t "OpenBosniana OS Welcome" index.sh.htm
+fi
