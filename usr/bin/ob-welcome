@@ -1,3 +1,3 @@
 #!/bin/sh
 cd /usr/share/ob-welcome/
-exec /usr/bin/openbosniana-welcome -s 1020x700 -i openbosniana-welcome -t "OpenBosniana OS Welcome" index.sh.htm
+exec /usr/bin/openbosniana-welcome -s 870x600 -i openbosniana-welcome -t "OpenBosniana OS Welcome" index.sh.htm

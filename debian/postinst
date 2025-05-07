@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+ln -s /usr/share/ob-control-center/images /usr/share/ob-welcome/icons
+ln -s /usr/share/ob-control-center/apps /usr/share/ob-welcome/apps-cc
+ln -s /usr/share/ob-control-center/apps/menu11.run /usr/share/ob-welcome/apps/menu11.run
+ln -s /usr/share/ob-control-center/apps/kicker.run /usr/share/ob-welcome/apps/kicker.run
+ln -s /usr/share/ob-control-center/apps/kickoff.run /usr/share/ob-welcome/apps/kickoff.run
+ln -s /usr/share/ob-control-center/apps/kickerdash.run /usr/share/ob-welcome/apps/kickerdash.run
+ln -s /usr/share/ob-control-center/apps/simplemenu.run /usr/share/ob-welcome/apps/simplemenu.run
+ln -s /usr/share/ob-control-center/start-menu /usr/share/ob-welcome/start-menu
+cp /usr/share/ob-welcome/ob-welcome-first.desktop /home/*/.config/autostart/
+
+exit 0

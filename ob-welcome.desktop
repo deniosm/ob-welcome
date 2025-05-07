@@ -1,13 +1,14 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 GenericName=OpenBosniana OS Welcome
 Name=OpenBosniana OS Welcome
-Exec=/usr/bin/ob-welcome
+Name[hr_HR]=OpenBosniana OS Welcome
+Name[bs]=OpenBosniana OS Welcome
+Name[sr]=OpenBosniana OS Welcome
+Exec=/usr/bin/ob-welcome-launcher
 X-KDE-StartupNotify=true
 X-KDE-HasTempFileOption=true
 Icon=openbosniana-welcome
 Type=Application
 Terminal=false
 Categories=Utility;Qt;KDE;
-Name[hr_HR]=OpenBosniana OS Welcome
-Name[bs]=OpenBosniana OS Welcome
-Name[sr]=OpenBosniana OS Welcome

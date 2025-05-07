@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xdg-open https://bosniana.org/wiki/installation-guide/index.html

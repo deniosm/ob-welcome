@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 08:26+0100\n"
+"POT-Creation-Date: 2025-02-13 04:42+0100\n"
 "PO-Revision-Date: 2019-06-23 23:25+0000\n"
 "Last-Translator: Deni <deni@bosniana.org>, 2024\n"
 "Language-Team: Croatian (https://www.transifex.com/openBosniana/teams/1818/"
@@ -24,8 +24,8 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: usr/share/ob-welcome/translation:9
-msgid "Hi %1!"
-msgstr ""
+msgid "Hi"
+msgstr "Zdravo"
 
 #: usr/share/ob-welcome/translation:10
 #, fuzzy
@@ -53,7 +53,7 @@ msgstr "Hardver"
 msgid "Welcome"
 msgstr "Dobrodošao/la"
 
-#: usr/share/ob-welcome/translation:18 usr/share/ob-welcome/translation:39
+#: usr/share/ob-welcome/translation:18 usr/share/ob-welcome/translation:38
 msgid "Software"
 msgstr "Softver"
 
@@ -68,187 +68,194 @@ msgstr "Dobrodošli u vaš novi operativni sistem!"
 #: usr/share/ob-welcome/translation:21
 msgid ""
 "This welcome screen will guide you through your first steps, show you how "
-"find help and where to get more information about OpenBosniana OS.\n"
+"find help and where to get more information about OpenBosniana OS."
 msgstr ""
 "Ovaj zaslon dobrodošlice će vas voditi kroz vaše prve korake, pokazati vam "
-"kako pronaći pomoć i gdje možete dobiti više informacija o OpenBosniana OS-"
-"u.\n"
+"kako pronaći pomoć i gdje možete dobiti više informacija o OpenBosniana OS."
+
+#: usr/share/ob-welcome/translation:23
+msgid "System Settings"
+msgstr "Postavke sistema"
 
 #: usr/share/ob-welcome/translation:24
-msgid "First steps"
-msgstr "Prvi koraci"
-
-#: usr/share/ob-welcome/translation:25
 msgid "Date and time, updates, network, backup..."
 msgstr "Datum, vrijeme, podešavanje mreže, nadogradnje..."
 
-#: usr/share/ob-welcome/translation:26
+#: usr/share/ob-welcome/translation:25
 msgid "Monitor, audio, keyboard, storage..."
 msgstr "Monitor, zvuk, tastatura, pohrana..."
 
-#: usr/share/ob-welcome/translation:27
+#: usr/share/ob-welcome/translation:26
 msgid "Themes, fonts, icons..."
 msgstr "Teme, fontovi, ikone..."
 
-#: usr/share/ob-welcome/translation:28
+#: usr/share/ob-welcome/translation:27
 msgid "Install OpenBosniana"
 msgstr "Instaliraj OpenBosniana"
 
-#: usr/share/ob-welcome/translation:30 usr/share/ob-welcome/translation:47
+#: usr/share/ob-welcome/translation:29 usr/share/ob-welcome/translation:46
 msgid "About this application"
 msgstr "O ovom programu"
 
-#: usr/share/ob-welcome/translation:32
+#: usr/share/ob-welcome/translation:31
 msgid "Release Notes"
 msgstr "Bilješke o izdanju"
 
-#: usr/share/ob-welcome/translation:33
+#: usr/share/ob-welcome/translation:32
 msgid "Do not start OpenBosniana Welcome on login"
 msgstr "Ne pokreći OpenBosniana Welcome pri pokretanju"
 
-#: usr/share/ob-welcome/translation:34
+#: usr/share/ob-welcome/translation:33
 msgid "Make OpenBosniana Welcome start on login"
 msgstr "Pokreni OpenBosniana Welcome pri pokretanju"
 
-#: usr/share/ob-welcome/translation:37
-msgid "You are currently using %2 with kernel %3."
-msgstr "Trenutno koristite %2 sa kernelom %3."
+#: usr/share/ob-welcome/translation:36
+msgid ""
+"Now, go to <em>System settings</em> and quickly and easily configure your "
+"new system."
+msgstr ""
+"Sada idite u <em>Postavke sistema</em> i brzo i jednostavno "
+"konfigurišite svoj novi sistem."
 
-#: usr/share/ob-welcome/translation:40
+#: usr/share/ob-welcome/translation:39
 msgid "Update the system, application management..."
 msgstr "Ažuriranje sustava, upravljanje aplikacijama..."
 
-#: usr/share/ob-welcome/translation:42
+#: usr/share/ob-welcome/translation:41
 msgid "Documentation"
 msgstr "Dokumentacija"
 
-#: usr/share/ob-welcome/translation:43 usr/share/ob-welcome/translation:76
+#: usr/share/ob-welcome/translation:42
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
 "Ovaj softver je licenciran pod GNU Općom javnom licencom verzija 2 (GPLv2)."
 
-#: usr/share/ob-welcome/translation:44 usr/share/ob-welcome/translation:77
+#: usr/share/ob-welcome/translation:43
 msgid "It uses Qt6 WebEngine and openbosniana-welcome."
 msgstr "Koristi Qt6 WebEngine i openbosniana-welcome."
 
-#: usr/share/ob-welcome/translation:45 usr/share/ob-welcome/translation:78
+#: usr/share/ob-welcome/translation:44
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Za pogreške, prijedloge i poboljšanja idite na "
 
-#: usr/share/ob-welcome/translation:46
+#: usr/share/ob-welcome/translation:45
 msgid "Control Center"
-msgstr ""
+msgstr "Kontrolni Centar"
+
+#: usr/share/ob-welcome/translation:47
+msgid "SYSTEM"
+msgstr "Sistem"
 
 #: usr/share/ob-welcome/translation:48
-msgid "SYSTEM"
-msgstr ""
+msgid "Update"
+msgstr "Ažuriranja"
 
 #: usr/share/ob-welcome/translation:49
-msgid "Update"
-msgstr ""
+msgid "Update Settings"
+msgstr "Postavke ažuriranja"
 
 #: usr/share/ob-welcome/translation:50
-msgid "Update Settings"
-msgstr ""
+msgid "Users and Groups"
+msgstr "Korisnici i grupe"
 
 #: usr/share/ob-welcome/translation:51
-msgid "Users and Groups"
-msgstr ""
+msgid "Date and Time"
+msgstr "Datum i vrijeme"
 
 #: usr/share/ob-welcome/translation:52
-msgid "Date and Time"
-msgstr ""
+msgid "Networks"
+msgstr "Mreže"
 
 #: usr/share/ob-welcome/translation:53
-msgid "Networks"
-msgstr ""
+msgid "Backup"
+msgstr "Sigurnosna kopija"
 
 #: usr/share/ob-welcome/translation:54
-msgid "Backup"
-msgstr ""
+msgid "HARDWARE"
+msgstr "Hardver"
 
 #: usr/share/ob-welcome/translation:55
-msgid "HARDWARE"
-msgstr ""
+msgid "Monitor"
+msgstr "Monitor"
 
 #: usr/share/ob-welcome/translation:56
-msgid "Monitor"
-msgstr ""
+msgid "Printer"
+msgstr "Štampač"
 
 #: usr/share/ob-welcome/translation:57
-msgid "Printer"
-msgstr ""
-
-#: usr/share/ob-welcome/translation:58
 msgid "Bluetooth"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:59
+#: usr/share/ob-welcome/translation:58
 msgid "Audio"
-msgstr ""
+msgstr "Zvuk"
+
+#: usr/share/ob-welcome/translation:59
+msgid "Keyboard"
+msgstr "Tastatura"
 
 #: usr/share/ob-welcome/translation:60
-msgid "Keyboard"
-msgstr ""
-
-#: usr/share/ob-welcome/translation:61
 msgid "Touchpad"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:62
+#: usr/share/ob-welcome/translation:61
 msgid "Local Drives"
-msgstr ""
+msgstr "Lokalni diskovi"
+
+#: usr/share/ob-welcome/translation:62
+msgid "Storage Devices"
+msgstr "Pohrana"
 
 #: usr/share/ob-welcome/translation:63
-msgid "Storage Devices"
-msgstr ""
+msgid "DESKTOP"
+msgstr "Desktop"
 
 #: usr/share/ob-welcome/translation:64
-msgid "DESKTOP"
-msgstr ""
+msgid "Themes"
+msgstr "Teme"
 
 #: usr/share/ob-welcome/translation:65
-msgid "Themes"
-msgstr ""
+msgid "Login Screen"
+msgstr "Ekran za prijavu"
 
 #: usr/share/ob-welcome/translation:66
-msgid "Login Screen"
-msgstr ""
+msgid "Compositor"
+msgstr "Kompozitor"
 
 #: usr/share/ob-welcome/translation:67
-msgid "Compositor"
-msgstr ""
+msgid "Icons"
+msgstr "Ikone"
 
 #: usr/share/ob-welcome/translation:68
-msgid "Icons"
-msgstr ""
+msgid "Colors"
+msgstr "Boje"
 
 #: usr/share/ob-welcome/translation:69
-msgid "Colors"
-msgstr ""
+msgid "Fonts"
+msgstr "Fontovi"
 
 #: usr/share/ob-welcome/translation:70
-msgid "Fonts"
-msgstr ""
+msgid "Language"
+msgstr "Jezik"
 
 #: usr/share/ob-welcome/translation:71
-msgid "Language"
-msgstr ""
+msgid "About This System"
+msgstr "O sistemu"
 
 #: usr/share/ob-welcome/translation:72
-msgid "About This System"
-msgstr ""
+msgid "CPU Information"
+msgstr "CPU informacije"
 
 #: usr/share/ob-welcome/translation:73
-msgid "CPU Information"
-msgstr ""
+msgid "PCI information"
+msgstr "PCI informacije"
 
 #: usr/share/ob-welcome/translation:74
-msgid "PCI information"
-msgstr ""
+msgid "Device Viewer"
+msgstr "Uređaji"
 
 #: usr/share/ob-welcome/translation:75
-msgid "Device Viewer"
-msgstr ""
+msgid "Start Menu"
+msgstr "Start meni"

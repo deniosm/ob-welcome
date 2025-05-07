@@ -31,93 +31,136 @@ sed \
 	<head>
 		<title>$title</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <link rel="stylesheet" href="$CSS_FILE" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="css/block.js"></script>
+        <script src="css/runtime.js"></script>
+        <script src="css/showcase.run.js" async=""></script>
 
 	</head>
 <body>
 <!-- Nav -->
-	<nav id="nav">
-		<ul class="container">
-			<li class='active'><a href="##">$menuindex</a></li>
-			<li><a href=./apps/docswiki.run>$docswiki</a></li>
-			<li><a href=./apps/open-rn.run>$descrn</a></li>
-			<li><a href="about.sh.htm">$descabout</a></li>
-		</ul>
-	</nav>
-<!-- Home -->
-	<div class="wrapper">
-		<div class="logo"><br>
-			<img src="images/omth.png" "/>
-		</div>
+<section>
+    <div id="networks">
+        <div class="bckg-top">
+            <div class="banner_top">
+               <img src="css/ob.svg" alt="">
+            </div>
+	        <div id="top_nav">
+                <li class='active'>$menuindex</li>
+                <li>$docswiki</li>
+                <li>$descrn</li>
+                <li>$descabout</li>
+	        </div>
+	    </div>
 
-		 <article class="articles">
-		 			<h1 class="titlePage"> $title </h1>
-		    <div id="container">
-		    <div id='cssmenutittletext'>
-		        <ul>
-		        <li><p class="hicapitalize">$hi</p></li>
-		        <li><p>$text</p></li>
-		        <li><p>$text2</p></li>
-		        <li><p>$you_are_using</p></li>
-                </ul>
-     		</div>
-     		</div>
-
-		 </article>		
-		
-		
-		 <article class="articles">
-
+        <div id="title-h1">
+        <p class="hicapitalize"><h1 class="hicapitalize">$hi, %1 !</h1></p>
+        <p class="title-p">$text</p>
+        <p class="title-p">$dvojka</p>
+        <p class="title-p">$you_are_using</p>
+        </div>
 EOF
 
 if [ -f /home/*/Desktop/install-debian.desktop ]; then
 
 cat << EOF
-		<div id="container" style="margin-top:15px;">
-		<div id='cssmenutittle'>
-		    <ul>   <li>
- <img src="images/installob.svg" class="alignleft"/>
 
-            <a href=./apps/install-ob.run>
+    <div class="install_btn">
+        <li>
+            <a href="./apps/install-ob.run"><img src="images/install.png" alt="">
 
-            $installopenbosniana OS
 
-            </a>
-			</li>
-            </ul>
- 		</div>
- 		</div>
+                $installopenbosniana OS
+
+
+             </a>
+        </li>
+    </div>
+
 EOF
 fi
 cat << EOF
-		 </article>
+
+    </div>
+</section>
 
 
-		<div id="container" style="margin-top:15px;">
-<h1 class="titlePage"> $descomfeat </h1><br/>
-				<ul id="item-list">
-<!-- Startmodules -->
 
- 			<li>
-				<a href=system.sh.htm><img src="images/sysconf.svg" class="alignleft"/></a>
-				<span><a class="title" href=system.sh.htm>$menusystem</a></span><br/><p>$titleupdconf</p>
-			</li>
-			<li>
-				<a href=hardware.sh.htm><img src="images/hardconf.svg" class="alignleft"/></a>
-				<span><a class="title" href=hardware.sh.htm>$menuhardware</a></span><br/><p>$descupdconf</p>
-			</li>
-			<li>
-				<a class="title" target="hidden" href=desktop.sh.htm><img src="images/themeedit.svg" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=desktop.sh.htm>$menudesktop</a></span><br/><p>$descfeellike</p>
-			</li>
-			<li>
-				<a class="title" target="hidden" href=./apps/softcenter.run><img src="images/soft.svg" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/softcenter.run>$menusoft</a></span><br/><p>$menusoftdesc</p>
-			</li>
+    <section>
+      <div id="showcase" class="row grey">
+        <div id="showcase-index">
 
-				</ul>
-		</div>
-	</div>
+            <h2>$descomfeat</h2>
+
+          <ul id="showcase-grid">
+            <a href="#showcase-music"><li><img src="images/sysconf.png" alt="Music app icon"><p>$menusystem</p></li></a>
+            <a href="#showcase-epiphany"><li><img src="images/hardconf.png" alt="Browser app icon"><p>$menuhardware</p></li></a>
+            <a href="#showcase-mail"><li><img src="images/themeedit.png" alt="Browser app icon"><p>$menudesktop</p></li></a>
+            <a href="#showcase-photos"><li><img src="images/start-menu.png" alt="Browser app icon"><p>$startmenu</p></li></a>
+            <a href="#showcase-videos"><li><img src="images/soft.png" alt="Browser app icon"><p>$menusoft</p></li></a>
+          </ul>
+        </div>
+        <div class="showcase-tab" id="showcase-music">
+            <div id="showcase-index">
+                <ul id="showcase-grid">
+               <a href=../ob-control-center/apps/updatesys.run><li ><img src="images/system-update.png" alt=""><p>$titleupdatesys</p></li></a>
+               <a href=../ob-control-center/apps/ob-update-config.run><li ><img src="images/update-config.png" alt=""><p>$updatesettigs</p></li></a>
+               <a href=../ob-control-center/apps/drakuser.run><li ><img src="images/users.png" alt=""><p>$titledrakuser</p></li></a>
+               <a href=../ob-control-center/apps/start-clock.run><li ><img src="images/clock.png"/><p>$titledrakclock</p></li></a>
+               <a href=../ob-control-center/apps/start-drakconnect.run><li ><img src="images/network.png"/><p>$titleconfiglan</p></li></a>
+               <a href=../ob-control-center/apps/kbackup.run><li ><img src="images/system-backup.png"/><p>$titlekbackup</p></li></a>
+               <a class="title" href=../ob-control-center/apps/language.run><li ><img src="images/language.png"/><p>$titlelanguage</p></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="showcase-tab" id="showcase-epiphany">
+            <div id="showcase-index">
+                <ul id="showcase-grid">
+                <a href=../ob-control-center/apps/start-xfdrake.run><li ><img src="images/monitor.png" alt=""><p>$titlexfdrake</p></li></a>
+                <a href=../ob-control-center/apps/start-printmanager.run><li ><img src="images/printer.png" alt=""><p>$titleconfigprint</p></li></a>
+                <a href=../ob-control-center/apps/bluetooth.run><li ><img src="images/bluetooth.png" alt=""><p>$titlebluetooth</p></li></a>
+                <a href=../ob-control-center/apps/start-audio.run><li ><img src="images/sound.png"/><p>$titleaudio</p></li></a>
+                <a href=../ob-control-center/apps/start-keyboard.run><li ><img src="images/keyboard.png"/><p>$titlekeyboard</p></li></a>
+                <a href=../ob-control-center/apps/kbackup.run><li ><img src="images/system-backup.png"/><p>$titlekbackup</p></li></a>
+                <a class="title" href=../ob-control-center/apps/language.run><li ><img src="images/language.png"/><p>$titlelanguage</p></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="showcase-tab" id="showcase-mail">
+            <div id="showcase-index">
+                <ul id="showcase-grid">
+                <a href=apps/start-kdethemes.run><li> <img src="images/desktop-theme.png" alt=""><p>$titlechangethemes</p></li></a>
+                <a href=../ob-control-center/apps/install-mauishell.run><li> <img src="images/login.png" alt=""><p>$titlemauishell</p></li></a>
+                <a href=apps/install-lxqt.run><li> <img src="images/compton.png" alt=""><p>$titlelxqt</p></li></a>
+                <a href=../ob-control-center/apps/start-kdeicons.run><li> <img src="images/desktop-icons.png"/><p>$titlechangeicons</p></li></a>
+                <a href=apps/install-gnomeshell.run><li> <img src="images/colorgrab.png"/><p>$titlegnomeshell</p></li></a>
+                <a href=../ob-control-center/apps/start-fonts.run><li> <img src="images/fonts.png"/><p>$titledrakfont</p></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="showcase-tab" id="showcase-photos">
+            <div id="showcase-index">
+                <ul id="showcase-grid">
+                <a href=apps/menu11.run><li> <img src="images/menu11.png" alt=""><p>Menu11</p></li></a>
+                <a href=apps/kicker.run><li> <img src="images/kicker.png" alt=""><p>Kicker</p></li></a>
+                <a href=apps/kickoff.run><li> <img src="images/kickoff.png" alt=""><p>Kickoff</p></li></a>
+                <a href=apps/simplemenu.run><li> <img src="images/simple.png" alt=""><p>Simple Menu</p></li></a>
+                <a href=apps/kickerdash.run><li> <img src="images/dash.png" alt=""><p>Dash</p></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="showcase-tab" id="showcase-videos">
+            <div id="showcase-index">
+                <ul id="showcase-grid">
+                <a href=apps/discover.run><li> <img src="images/discover.png" alt=""><p>Discover</p></li></a>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+
 EOF
 
 
@@ -148,22 +191,29 @@ fi
 cat << EOF
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const navItems = document.querySelectorAll("#top_nav li");
+    const titleH1 = document.getElementById("title-h1");
 
+    const contentMap = {
+        "$menuindex": "<p class='hicapitalize'><h1 class='hicapitalize'>$hi!</h1></p><p class='title-p'>$text</p><p class='title-p'>$dvojka</p><p class='title-p'>$you_are_using</p>",
+        "$docswiki": "<p class='title-p'>WEBSITE<a href=./apps/bosniana.run> bosniana.org</a></p><p class='title-p'>PDF<a href=./apps/pdf.run> OFFLINE</a></p><p class='title-p'>HTML <a href=./apps/docs.run> ONLINE</a></p>",
+        "$descrn": "<p class='title-p'>Release Notes<a href=./apps/release.run> HOME-KDE</a></p><p class='title-p'>Installation Guide<a href=./apps/docs.run> 01.2025</a></p>",
+        "$descabout": "<p class='title-p'>$license</p><p class='title-p'>$dependency</p><p class='title-p'>$bugs <a href=./apps/open-bugzilla.run> bosniana.org</a></p><p class='title-p'>Fork and Contribute to $ob_appsite <a href=./apps/open-appsite.run> openbosniana-welcome-app Github Repo</a></p><p class='title-p'>Denis Maslo | <a href='##'>bosniana.org</a></p>"};
+
+    navItems.forEach(item => {
+        item.addEventListener("click", function () {
+            navItems.forEach(li => li.classList.remove("active"));
+            this.classList.add("active");
+
+            const text = this.innerText.trim();
+            titleH1.innerHTML = contentMap[text] || "<p class='title-p'>Default Content</p>";
+        });
+    });
+});
+
+</script>
 </body>
-  <script>
-    document.addEventListener("contextmenu", function(e) {
-      e.preventDefault();
-    });
-    document.addEventListener("selectstart", function(e) {
-      e.preventDefault();
-    });
-    document.addEventListener("copy", function(e) {
-      e.preventDefault();
-    });
-    document.addEventListener("dragstart", function(e) {
-      e.preventDefault();
-    });
-  </script>
-
 </html>
 EOF

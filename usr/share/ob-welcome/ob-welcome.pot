@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 15:06+0100\n"
+"POT-Creation-Date: 2025-05-08 01:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: usr/share/ob-welcome/translation:9
-msgid "Hi %1!"
+msgid "Hi"
 msgstr ""
 
 #: usr/share/ob-welcome/translation:10
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Welcome"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:18 usr/share/ob-welcome/translation:39
+#: usr/share/ob-welcome/translation:18 usr/share/ob-welcome/translation:38
 msgid "Software"
 msgstr ""
 
@@ -60,183 +60,189 @@ msgstr ""
 #: usr/share/ob-welcome/translation:21
 msgid ""
 "This welcome screen will guide you through your first steps, show you how "
-"find help and where to get more information about OpenBosniana OS.\n"
+"find help and where to get more information about OpenBosniana OS."
+msgstr ""
+
+#: usr/share/ob-welcome/translation:23
+msgid "System Settings"
 msgstr ""
 
 #: usr/share/ob-welcome/translation:24
-msgid "First steps"
-msgstr ""
-
-#: usr/share/ob-welcome/translation:25
 msgid "Date and time, updates, network, backup..."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:26
+#: usr/share/ob-welcome/translation:25
 msgid "Monitor, audio, keyboard, storage..."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:27
+#: usr/share/ob-welcome/translation:26
 msgid "Themes, fonts, icons..."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:28
+#: usr/share/ob-welcome/translation:27
 msgid "Install OpenBosniana"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:30 usr/share/ob-welcome/translation:47
+#: usr/share/ob-welcome/translation:29 usr/share/ob-welcome/translation:46
 msgid "About this application"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:32
+#: usr/share/ob-welcome/translation:31
 msgid "Release Notes"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:33
+#: usr/share/ob-welcome/translation:32
 msgid "Do not start OpenBosniana Welcome on login"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:34
+#: usr/share/ob-welcome/translation:33
 msgid "Make OpenBosniana Welcome start on login"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:37
-msgid "You are currently using %2 with kernel %3."
+#: usr/share/ob-welcome/translation:36
+msgid ""
+"Now, go to <em>System settings</em> and quickly and easily configure your "
+"new system."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:40
+#: usr/share/ob-welcome/translation:39
 msgid "Update the system, application management..."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:42
+#: usr/share/ob-welcome/translation:41
 msgid "Documentation"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:43 usr/share/ob-welcome/translation:76
+#: usr/share/ob-welcome/translation:42
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:44 usr/share/ob-welcome/translation:77
+#: usr/share/ob-welcome/translation:43
 msgid "It uses Qt6 WebEngine and openbosniana-welcome."
 msgstr ""
 
-#: usr/share/ob-welcome/translation:45 usr/share/ob-welcome/translation:78
+#: usr/share/ob-welcome/translation:44
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr ""
 
-#: usr/share/ob-welcome/translation:46
+#: usr/share/ob-welcome/translation:45
 msgid "Control Center"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:48
+#: usr/share/ob-welcome/translation:47
 msgid "SYSTEM"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:49
+#: usr/share/ob-welcome/translation:48
 msgid "Update"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:50
+#: usr/share/ob-welcome/translation:49
 msgid "Update Settings"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:51
+#: usr/share/ob-welcome/translation:50
 msgid "Users and Groups"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:52
+#: usr/share/ob-welcome/translation:51
 msgid "Date and Time"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:53
+#: usr/share/ob-welcome/translation:52
 msgid "Networks"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:54
+#: usr/share/ob-welcome/translation:53
 msgid "Backup"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:55
+#: usr/share/ob-welcome/translation:54
 msgid "HARDWARE"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:56
+#: usr/share/ob-welcome/translation:55
 msgid "Monitor"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:57
+#: usr/share/ob-welcome/translation:56
 msgid "Printer"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:58
+#: usr/share/ob-welcome/translation:57
 msgid "Bluetooth"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:59
+#: usr/share/ob-welcome/translation:58
 msgid "Audio"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:60
+#: usr/share/ob-welcome/translation:59
 msgid "Keyboard"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:61
+#: usr/share/ob-welcome/translation:60
 msgid "Touchpad"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:62
+#: usr/share/ob-welcome/translation:61
 msgid "Local Drives"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:63
+#: usr/share/ob-welcome/translation:62
 msgid "Storage Devices"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:64
+#: usr/share/ob-welcome/translation:63
 msgid "DESKTOP"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:65
+#: usr/share/ob-welcome/translation:64
 msgid "Themes"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:66
+#: usr/share/ob-welcome/translation:65
 msgid "Login Screen"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:67
+#: usr/share/ob-welcome/translation:66
 msgid "Compositor"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:68
+#: usr/share/ob-welcome/translation:67
 msgid "Icons"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:69
+#: usr/share/ob-welcome/translation:68
 msgid "Colors"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:70
+#: usr/share/ob-welcome/translation:69
 msgid "Fonts"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:71
+#: usr/share/ob-welcome/translation:70
 msgid "Language"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:72
+#: usr/share/ob-welcome/translation:71
 msgid "About This System"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:73
+#: usr/share/ob-welcome/translation:72
 msgid "CPU Information"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:74
+#: usr/share/ob-welcome/translation:73
 msgid "PCI information"
 msgstr ""
 
-#: usr/share/ob-welcome/translation:75
+#: usr/share/ob-welcome/translation:74
 msgid "Device Viewer"
+msgstr ""
+
+#: usr/share/ob-welcome/translation:75
+msgid "Start Menu"
 msgstr ""

@@ -1,13 +1,26 @@
 #!/bin/sh
+set -x  # Debugging mode
+
+# Ensure .ob-welcome exists and is correctly set up
 if ! [ -e "/home/$USER/.ob-welcome" ]; then
-	touch ~/.ob-welcome
-	echo 'autostart=1' > ~/.ob-welcome
+	touch /home/$USER/.ob-welcome
+	echo 'autostart=0' > /home/$USER/.ob-welcome
 fi
 
-source ~/.ob-welcome
+	# Source the .ob-welcome file
+. /home/$USER/.ob-welcome
+echo "autostart is set to: $autostart"
 
-#read if autostart?
+	# Check if autostart is enabled and execute the command
 if [ "$autostart" -eq 1 ]; then
-	cd /usr/share/ob-welcome/
-	exec openbosniana-welcome -s 1020x700 -i openbosniana-welcome -t "OpenBosniana OS Welcome" index.sh.htm
+	echo "Starting welcome application..."
+	if [ -d "/usr/share/ob-welcome/" ]; then
+		cd /usr/share/ob-welcome/
+		exec openbosniana-welcome -s 870x600 -i openbosniana-welcome -t "OB Welcome" index.sh.htm
+	else
+		echo "Directory /usr/share/ob-welcome/ does not exist."
+	fi
+else
+	echo "Autostart is not enabled."
 fi
+

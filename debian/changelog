@@ -1,4 +1,19 @@
-ob-welcome (2024.12.17) OpenBosniana; urgency=medium
+ob-welcome (2025.05.08) OpenBosniana; urgency=medium
+
+  * Add ob-welcome-first.sh
+  * Add ob-welcome-first.desktop
+  * Update index.sh.htm
+
+ -- Denis Maslo <deni@bosniana.org>  Thu, 08 May 2025 00:13:25 +0200
+
+ob-welcome (2025.02.02) OpenBosniana; urgency=medium
+
+  * fix autostart
+  * update /apps/*
+
+ -- Denis Maslo <deni@bosniana.org>  Fri, 31 Jan 2025 08:33:01 +0200
+
+ob-welcome (2024.12.19) OpenBosniana; urgency=medium
 
   * fix autostart
   * update /apps/*

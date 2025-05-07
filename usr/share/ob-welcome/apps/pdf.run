@@ -1,0 +1,3 @@
+#!/bin/bash
+
+okular /usr/share/ob-welcome/InstallationGuide.pdf

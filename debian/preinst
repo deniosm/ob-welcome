@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+if [ -d "/usr/share/ob-welcome" ]; then
+    rm -rf "/usr/share/ob-welcome"
+fi
+
+exit 0
+
