@@ -259,3 +259,11 @@ msgstr "Uređaji"
 #: usr/share/ob-welcome/translation:75
 msgid "Start Menu"
 msgstr "Start meni"
+
+#: usr/share/ob-welcome/translation:76
+msgid "Appearance"
+msgstr "Prilagodba izgleda"
+
+#: usr/share/ob-welcome/translation:77
+msgid "Default Start Menu"
+msgstr "Zadani izbornik aplikacija"
